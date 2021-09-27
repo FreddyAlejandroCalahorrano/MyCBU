@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prop.MenuPropActivity">
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnVerPerfil"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:focusable="true"
+                android:foregroundTint="@color/black"
+                android:gravity="center_horizontal"
+                android:text="Perfil"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_profile_unload"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnVerPerfilUni"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@empty"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Perfil Unidad"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_bus"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnOfEmpleo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Ofertar un Empleo"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_emp"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnVerComenCond"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Ver Comentarios Conductor"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_comm"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCalfCond"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Calificar Conductor"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_chec"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnVerLeyTran"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Ver Ley de Tránsito"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_law"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnElimCuent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Eliminar Cuenta"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_delet"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnCerrarSecion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="Cerrar Secion"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_icon_exit"
+                app:iconGravity="textTop"
+                app:iconSize="100dp"
+                app:iconTint="#000000" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

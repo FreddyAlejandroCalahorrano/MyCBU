@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793910005091",
+    "project_id": "proyecto-de-titulacion-720ab",
+    "storage_bucket": "proyecto-de-titulacion-720ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793910005091:android:b0d436a3996367a1be1756",
+        "android_client_info": {
+          "package_name": "com.example.sistemabus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793910005091-17nf40avi965fh7l36jclkvbajt0viqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXkJ1fokEtsr96gmfKkjWtuxlOBgyHskA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793910005091-17nf40avi965fh7l36jclkvbajt0viqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

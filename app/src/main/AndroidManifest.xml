@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sistemabus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyCBU"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeSistemaBus"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".inicio.GiaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.ViewProfilePropCondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".prop.CalfCondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.VerPuntActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.EditUnitAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.UnidadAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.EditPropAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.PropAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.EditCondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.CondAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".adaptadorQuestions.EditCuestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.ViewCuestionsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.adminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".user.UsuarioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.PostEmpleoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.ViewLawActivity"
+            android:exported="true" />
+        <activity
+            android:name=".prop.LeydeTransitoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.MenuTestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.EditProfileCondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.ProfileCondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".cond.testActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ofertaremple.ViewCondPostActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ofertaremple.OfertarEmpleoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".unidad.EditProfileUniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".unidad.ProfileUniActivity"
+            android:exported="true" />
+        <activity
+            android:name=".prop.EditProfilePropActivity"
+            android:exported="true" />
+        <activity android:name=".prop.ProfilePropActivity" />
+        <activity android:name=".prop.MenuPropActivity" />
+        <activity android:name=".inicio.RecPasswdActivity" />
+        <activity android:name=".cond.MenuCondActivity" />
+        <activity android:name=".inicio.RegistActivity" />
+        <activity android:name=".inicio.AuthActivity" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
